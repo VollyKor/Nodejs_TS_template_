@@ -21,7 +21,7 @@ logger.error('log4js log error');
 // example of import from .js to .ts files
 // =================================
 import { example } from './controllers/user'
-console.log('import example', example);
+console.log(example);
 
 const app = express();
 app.use(cors())
