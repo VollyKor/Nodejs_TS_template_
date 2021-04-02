@@ -1,7 +1,12 @@
 import app from '../index'
+import { a } from '../controllers/user.js'
+
+console.log(a);
 
 // Connect to Database
 // ======================================
+
+
 // const db = require('../model/db')
 // const createFolderIsExist = require('../utils/create-dir')
 // const { UPLOAD_FOLDER, AVATARS_OF_USERS } = require('../helpers/constants')
